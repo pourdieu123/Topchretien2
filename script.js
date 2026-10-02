@@ -135,7 +135,7 @@
 
   const formations = trackAfter('formations');
   if (formations) formations.insertAdjacentHTML('beforeend', FORMATIONS_PLUS.map(f =>
-    `<div class="c"><div class="ph" style="background:linear-gradient(135deg,${f.g})">${f.t}<span class="play"><i class="fa-solid fa-play" aria-hidden="true"></i></span></div>
+    `<div class="c"><div class="ph" style="background:linear-gradient(135deg,${f.g})">${f.t}</div>
       <span class="tag">${f.tag}</span><h4>${f.t}</h4>
       <div class="who"><span class="avatar sm"></span>${f.who}</div><a href="videos.html#s5" class="more">Découvrir la formation</a></div>`).join(''));
 
